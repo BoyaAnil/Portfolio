@@ -5,7 +5,6 @@ Professional corporate portfolio website for **ANIL BOYA** (Full Stack Developer
 ## Links
 
 - Live Site: <https://anilboyaportfolio.netlify.app/>
-- Repository: <https://github.com/BoyaAnil/Portfolio>
 
 ## Tech Stack
 
@@ -35,19 +34,6 @@ Portfolio/
    ├─ profile.jpg
    └─ README.txt
 ```
-
-## Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/BoyaAnil/Portfolio.git
-   ```
-2. Open `index.html` directly in a browser, or run a local server:
-   ```bash
-   python -m http.server 8000
-   ```
-3. Visit:
-   - <http://localhost:8000/index.html>
 
 ## Notes
 
