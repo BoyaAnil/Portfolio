@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ANIL BOYA | Full Stack Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Professional portfolio of ANIL BOYA, Full Stack Developer from Bengaluru, focused on scalable web development and applied AI."
+  />
+  <meta name="author" content="ANIL BOYA" />
+
+  <!-- Open Graph / Social -->
+  <!-- EDIT: Update og:url and og:image after deployment -->
+  <meta property="og:title" content="ANIL BOYA | Full Stack Developer Portfolio" />
+  <meta property="og:description" content="Modern corporate portfolio with projects, skills, experience, and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand" aria-label="Go to home section">
+        <span class="brand-mark" aria-hidden="true">{ }</span>
+        <span class="brand-text">ANIL BOYA</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Toggle navigation menu"
+        aria-controls="site-nav"
+        aria-expanded="false"
+        type="button"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a class="nav-link active" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#profiles">Profiles</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Switch to light mode"
+        title="Toggle theme"
+      >
+        <span class="theme-icon" aria-hidden="true">L</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1) HERO -->
+    <section id="hero" class="section hero">
+      <div class="container hero-grid reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Full Stack Developer • Bengaluru, Karnataka, India</p>
+          <h1>ANIL BOYA</h1>
+          <p class="hero-title">Full Stack Developer</p>
+          <p class="hero-tagline">
+            Building reliable full-stack products with clean engineering and practical AI integration.
+          </p>
+
+          <div class="chip-row" aria-label="Profile highlights">
+            <span class="chip">Looking for: Job</span>
+            <span class="chip">Short-term goal: Secure a role in a reputed company</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <!-- EDIT: Update resume file path -->
+            <a href="assets/Anil_Boya_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+          </div>
+
+          <ul class="social-links" aria-label="Social links">
+            <li><a href="https://github.com/BoyaAnil" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/anil-boya-653b93256/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:boyaanil786@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-photo-card">
+          <!-- Save the uploaded photo as assets/profile.jpg -->
+          <img src="assets/profile.jpg" alt="Profile photo of ANIL BOYA" width="420" height="420" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 2) ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">About</p>
+          <h2>Professional Summary</h2>
+        </div>
+
+        <article class="card reveal">
+          <p>
+            I am a Full Stack Developer with hands-on experience in building responsive web applications,
+            integrating frontend and backend systems, and solving real-world problems with clean, maintainable code.
+            My interests strongly align with AI-enabled products, especially where web engineering and intelligent
+            automation can deliver measurable user value.
+          </p>
+          <div class="two-col">
+            <div>
+              <h3>Career Focus</h3>
+              <p>Secure a role in a reputed company and contribute through strong execution, ownership, and teamwork.</p>
+            </div>
+            <div>
+              <h3>Long-Term Vision</h3>
+              <p>Grow into a responsible position where I can contribute to the organization success.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3) SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Skills</p>
+          <h2>Technical & Professional Capabilities</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card skill-card reveal">
+            <h3>💻 Languages</h3>
+            <ul class="tag-list"><li>Python</li><li>SQL</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>🖥️ Frontend</h3>
+            <ul class="tag-list"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li><li>TypeScript</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>⚙️ Backend</h3>
+            <ul class="tag-list"><li>Django</li><li>Flask</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>🗄️ Databases</h3>
+            <ul class="tag-list"><li>MySQL</li><li>Oracle SQL</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>🛠️ Tools</h3>
+            <ul class="tag-list"><li>Git</li><li>GitHub</li><li>VS Code</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>🧠 AI & GenAI</h3>
+            <ul class="tag-list"><li>Generative AI Tools</li><li>Prompt Engineering</li></ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>🤝 Strengths</h3>
+            <ul class="tag-list"><li>problem-solving</li><li>debugging</li><li>communication</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4) PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected Work</h2>
+        </div>
+
+        <div class="filter-row reveal" role="group" aria-label="Project filters">
+          <button class="filter-btn is-active" data-filter="all" aria-pressed="true" type="button">All</button>
+          <button class="filter-btn" data-filter="python" aria-pressed="false" type="button">Python</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false" type="button">Web</button>
+          <button class="filter-btn" data-filter="ai" aria-pressed="false" type="button">AI</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card project-card reveal" data-category="python web ai">
+            <h3>AI Resume Parsing and Smart Interview Question Generator</h3>
+            <p>
+              Flask-based offline web app that extracts key information from resumes (PDF/DOCX), detects skills,
+              categorizes them, and generates technical + HR interview questions. Stores parsed resumes in SQLite
+              and lets users browse history and download questions as a PDF.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li><li>Flask</li><li>SQLite</li><li>PDF/DOCX Parsing</li><li>HTML/CSS/JS</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/AI-Resume-Parsing" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="python web ai">
+            <h3>Smart College Placement Portal (AI Recommendations)</h3>
+            <p>
+              Final-year placement portal with AI-powered job recommendations, skill-gap roadmaps,
+              and resume bullet suggestions.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li><li>Django</li><li>MySQL</li><li>HTML/CSS/JS</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/Smart-College-Placement-Portal" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="python web">
+            <h3>Hotel Management System</h3>
+            <p>
+              Comprehensive hotel management system built with Django, featuring role-based access control,
+              booking management, and room services.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li><li>Django</li><li>Database</li><li>HTML/CSS/JS</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/Hotel-Management-System" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="web ai">
+            <h3>AI Chatbot</h3>
+            <p>
+              Modern ChatGPT-style AI chatbot interface built with React.js and TypeScript.
+              Features session-based chat history, markdown formatting, and a clean, distraction-free user experience.
+            </p>
+            <ul class="tag-list">
+              <li>React</li><li>TypeScript</li><li>UI/UX</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/AI-ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="web ai">
+            <h3>AI Wiki Quiz Generator</h3>
+            <p>
+              Web app that takes a topic, fetches key information from Wikipedia, and generates interactive quiz
+              questions to help users learn quickly. Includes scoring and instant feedback.
+            </p>
+            <ul class="tag-list">
+              <li>JavaScript</li><li>API/Web Scraping Concept</li><li>HTML/CSS</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/scrape-and-quiz" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-primary" href="https://info-to-quiz.lovable.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="web">
+            <h3>FOODIE</h3>
+            <p>
+              Responsive food ordering UI that lets users browse items, filter/sort menu, view item details,
+              add/remove items to cart, and manage checkout-like flow using localStorage.
+            </p>
+            <ul class="tag-list">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>localStorage</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/BoyaAnil/foodie" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-primary" href="https://anilsfoodie.lovable.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Experience</p>
+          <h2>Internship</h2>
+        </div>
+
+        <article class="card reveal">
+          <h3>Web Developer Intern — SKILLDZIRE</h3>
+          <p class="meta">Duration: 2 months</p>
+          <ul class="bullet-list">
+            <li>Built responsive web pages and reusable UI components using HTML/CSS/JavaScript.</li>
+            <li>Integrated frontend with backend APIs and forms for smooth user workflows.</li>
+            <li>Worked with Git/GitHub for version control and collaboration.</li>
+            <li>Debugged UI issues, improved performance, and ensured cross-browser compatibility.</li>
+            <li>Collaborated with team members and followed clean code practices.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6) EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+
+        <article class="card reveal">
+          <h3>Bachelor of Technology (B.Tech)</h3>
+          <p><strong>Stream:</strong> CSE - Artificial Intelligence</p>
+          <p><strong>Institution:</strong> BEST Innovation University</p>
+          <p><strong>Duration:</strong> 2022 - 2026</p>
+          <p>
+            <a href="https://bestiu.edu.in/" target="_blank" rel="noopener noreferrer">Visit College Website</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7) CODING PROFILES -->
+    <section id="profiles" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Coding Profiles</p>
+          <h2>Practice & Problem Solving</h2>
+        </div>
+
+        <div class="profiles-grid">
+          <article class="card reveal">
+            <h3>LeetCode</h3>
+            <p>Regular algorithm and data structure practice.</p>
+            <a class="btn btn-secondary" href="https://leetcode.com/u/Boya_Anil/" target="_blank" rel="noopener noreferrer">View Profile</a>
+          </article>
+
+          <article class="card reveal">
+            <h3>CodeChef</h3>
+            <p>Competitive programming and coding challenges.</p>
+            <a class="btn btn-secondary" href="https://www.codechef.com/users/boyaanil24413" target="_blank" rel="noopener noreferrer">View Profile</a>
+          </article>
+
+          <article class="card reveal">
+            <h3>GeeksforGeeks</h3>
+            <p>Practice track and topic-wise coding progress.</p>
+            <a class="btn btn-secondary" href="https://www.geeksforgeeks.org/profile/boyaanilnfv" target="_blank" rel="noopener noreferrer">View Profile</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8) CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s Connect</h2>
+        </div>
+
+        <article class="card reveal contact-card">
+          <p><strong>Email:</strong> <a href="mailto:boyaanil786@gmail.com">boyaanil786@gmail.com</a></p>
+
+          <div class="contact-actions">
+            <button id="copy-email" class="btn btn-secondary" data-email="boyaanil786@gmail.com" type="button">
+              Copy Email
+            </button>
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/anil-boya-653b93256/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/BoyaAnil" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+
+          <p id="copy-status" class="copy-status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> ANIL BOYA. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
